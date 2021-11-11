@@ -43,251 +43,504 @@
 
                 android:layout_marginRight="10dp"
                 android:orientation="vertical"
-                android:src="@drawable/mishal"
+                android:src="@drawable/logo"
                 app:civ_border_color="@color/white"
                 app:civ_border_width="1dp" />
         </LinearLayout>
 
-        <LinearLayout
+        <androidx.core.widget.NestedScrollView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="vertical">
+            android:fillViewport="true">
 
-            <androidx.cardview.widget.CardView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:elevation="10dp"
-                app:cardCornerRadius="5dp">
-
-                <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="5dp">
-
-                    <de.hdodenhof.circleimageview.CircleImageView
-                        android:id="@+id/userImage"
-                        android:layout_width="90dp"
-                        android:layout_height="90dp"
-                        android:layout_marginLeft="10dp"
-                        android:orientation="vertical"
-                        android:src="@drawable/persion"
-                        app:civ_border_color="@color/white"
-                        app:civ_border_width="1dp" />
-
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_toRightOf="@id/userImage"
-                        android:orientation="vertical">
-
-
-                        <TextView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="10dp"
-                            android:text="Rohan Kumar"
-                            android:textColor="@color/black"
-                            android:textSize="18dp"
-                            android:textStyle="bold" />
-
-                        <RelativeLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content">
-
-                            <TextView
-                                android:id="@+id/ref"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginLeft="10dp"
-                                android:text="Referral Number :-"
-                                android:textColor="@color/black"
-                                android:textSize="15dp" />
-
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginLeft="10dp"
-                                android:layout_toRightOf="@id/ref"
-                                android:maxLines="1"
-                                android:text="#985798479380" />
-
-
-                        </RelativeLayout>
-
-                        <RelativeLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content">
-
-                            <TextView
-                                android:id="@+id/meb"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginLeft="10dp"
-                                android:text="Membership Number :-"
-                                android:textColor="@color/black"
-                                android:textSize="15dp" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginLeft="10dp"
-                                android:layout_toRightOf="@id/meb"
-                                android:maxLines="1"
-                                android:text="#985798479380" />
-                        </RelativeLayout>
-                    </LinearLayout>
-                </RelativeLayout>
-            </androidx.cardview.widget.CardView>
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:layout_margin="10dp"
-                android:orientation="horizontal">
+                android:layout_height="match_parent"
+                android:orientation="vertical">
 
-                <TextView
+                <androidx.cardview.widget.CardView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:layout_weight="1"
-                    android:text="Member Details"
-                    android:textColor="@color/blue"
-                    android:textStyle="bold" />
-
-
-                <ImageView
-                    android:id="@+id/print"
-                    android:layout_width="30dp"
-                    android:layout_height="30dp"
-                    android:layout_gravity="center"
-                    android:src="@drawable/print" />
-
-            </LinearLayout>
-
-            <androidx.cardview.widget.CardView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:elevation="10dp"
-                app:cardCornerRadius="5dp">
-
-
-                <RelativeLayout
-                    android:layout_width="match_parent"
                     android:layout_margin="10dp"
-                    android:layout_height="wrap_content">
+                    android:elevation="10dp"
+                    android:visibility="gone"
+                    app:cardCornerRadius="5dp">
 
-                    <de.hdodenhof.circleimageview.CircleImageView
-                        android:id="@+id/persion_img"
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
-                        android:layout_marginRight="10dp"
-                        android:orientation="vertical"
-                        android:src="@drawable/mishal"
-                        app:civ_border_color="@color/white"
-                        app:civ_border_width="1dp" />
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp">
 
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/userImage"
+                            android:layout_width="90dp"
+                            android:layout_height="90dp"
+                            android:layout_marginLeft="10dp"
+                            android:orientation="vertical"
+                            android:src="@drawable/persion"
+                            app:civ_border_color="@color/white"
+                            app:civ_border_width="1dp" />
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_toRightOf="@id/userImage"
+                            android:orientation="vertical">
+
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:text="Rohan Kumar"
+                                android:textColor="@color/black"
+                                android:textSize="18dp"
+                                android:textStyle="bold" />
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <TextView
+                                    android:id="@+id/ref"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="10dp"
+                                    android:text="Referral Number :-"
+                                    android:textColor="@color/black"
+                                    android:textSize="15dp" />
+
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_toRightOf="@id/ref"
+                                    android:maxLines="1"
+                                    android:text="#985798479380" />
+
+
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <TextView
+                                    android:id="@+id/meb"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="10dp"
+                                    android:text="Membership Number :-"
+                                    android:textColor="@color/black"
+                                    android:textSize="15dp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_toRightOf="@id/meb"
+                                    android:maxLines="1"
+                                    android:text="#985798479380" />
+                            </RelativeLayout>
+                        </LinearLayout>
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_margin="10dp"
+                    android:background="@color/gray"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
-                        android:text="#125"
-                        android:textAlignment="textEnd"
-                        android:textColor="@color/black"
-                        android:textSize="15dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:text="Member Card"
+                        android:textColor="@color/blue"
                         android:textStyle="bold" />
 
-                    <LinearLayout
-                        android:layout_width="wrap_content"
+
+                    <ImageView
+                        android:id="@+id/print"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/print" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="5dp"
+                        android:layout_marginTop="-20dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/bg_card" />
+
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_toRightOf="@id/persion_img"
-                        android:orientation="vertical">
+                        android:layout_margin="10dp"
+                        android:elevation="10dp"
+                        app:cardCornerRadius="5dp">
 
 
-                        <TextView
-                            android:id="@id/name"
+                        <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_marginLeft="10dp"
-                            android:text="Rohan Kumar"
-                            android:textColor="@color/black"
-                            android:textSize="15dp"
-                            android:textStyle="bold" />
+                            android:orientation="vertical">
 
-                        <RelativeLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content">
 
-                            <TextView
-                                android:id="@+id/fath"
-                                android:layout_width="wrap_content"
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="100dp"
+                                android:background="#C9E30000"
+                                android:orientation="vertical">
+
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="10dp">
+
+                                    <TextView
+                                        android:id="@+id/cod_no"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Candidate No:- 10010"
+                                        android:textColor="@color/white" />
+
+                                    <de.hdodenhof.circleimageview.CircleImageView
+                                        android:layout_width="50dp"
+                                        android:layout_height="50dp"
+                                        android:layout_below="@id/cod_no"
+                                        android:layout_marginLeft="15dp"
+                                        android:layout_marginTop="5dp"
+                                        android:orientation="vertical"
+                                        android:src="@drawable/logo"
+                                        app:civ_border_color="@color/white"
+                                        app:civ_border_width="1dp" />
+
+
+                                    <TextView
+                                        android:id="@+id/refral_no"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_alignParentEnd="true"
+                                        android:text="Refral No:- 1210"
+                                        android:textColor="@color/white" />
+
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_centerHorizontal="true"
+                                        android:text="Samaj Sewa Sangathe"
+                                        android:layout_marginTop="40dp"
+                                        android:textSize="18dp"
+                                        android:textStyle="bold"
+                                        android:textColor="@color/white" />
+
+                                    <de.hdodenhof.circleimageview.CircleImageView
+                                        android:layout_width="50dp"
+                                        android:layout_height="50dp"
+                                        android:id="@+id/profile_img"
+                                        android:layout_below="@id/refral_no"
+                                        android:layout_alignParentEnd="true"
+                                        android:layout_marginTop="5dp"
+                                        android:layout_marginRight="15dp"
+                                        android:orientation="vertical"
+                                        android:src="@drawable/id_cardbg"
+                                        app:civ_border_color="@color/white"
+                                        app:civ_border_width="1dp" />
+
+
+                                </RelativeLayout>
+
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:layout_marginLeft="10dp"
-                                android:text="Father Name :-"
-                                android:textColor="@color/black"
-                                android:textSize="15dp" />
+                                android:background="@drawable/flag_bg"
+                                android:orientation="vertical">
 
-                            <TextView
-                                android:layout_width="wrap_content"
+
+
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="5dp">
+
+                                    <TextView
+                                        android:id="@+id/names"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="30dp"
+                                        android:text="Name                 : "
+                                        android:textColor="@color/black"
+                                        android:textSize="17dp"
+                                        android:textStyle="bold" />
+
+                                    <TextView
+                                        android:id="@+id/name"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_toRightOf="@id/names"
+                                        android:text=" Rohan Kumar"
+                                        android:textColor="@color/black"
+                                        android:textSize="17dp" />
+
+                                </RelativeLayout>
+
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="5dp">
+
+                                    <TextView
+                                        android:id="@+id/fathernames"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="30dp"
+                                        android:text="Father Name    : "
+                                        android:textColor="@color/black"
+                                        android:textSize="17dp"
+                                        android:textStyle="bold" />
+
+                                    <TextView
+                                        android:id="@+id/fathername"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_toRightOf="@id/fathernames"
+                                        android:text=" Mr.Ramesh"
+                                        android:textColor="@color/black"
+                                        android:textSize="17dp" />
+
+                                </RelativeLayout>
+
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="5dp">
+
+                                    <TextView
+                                        android:id="@+id/villages"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="30dp"
+                                        android:text="Address            : "
+                                        android:textColor="@color/black"
+                                        android:textSize="17dp"
+                                        android:textStyle="bold" />
+
+                                    <TextView
+                                        android:id="@+id/village"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_toRightOf="@id/villages"
+                                        android:text="  Maharupur"
+                                        android:textColor="@color/black"
+                                        android:textSize="17dp" />
+
+                                </RelativeLayout>
+
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="5dp">
+
+                                    <TextView
+                                        android:id="@+id/posts"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="30dp"
+                                        android:text="Post                   : "
+                                        android:textColor="@color/black"
+                                        android:textSize="17dp"
+                                        android:textStyle="bold" />
+
+                                    <TextView
+                                        android:id="@+id/post"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_toRightOf="@id/posts"
+                                        android:text=" Raouth Mau-276406"
+                                        android:textColor="@color/black"
+                                        android:textSize="17dp" />
+
+                                </RelativeLayout>
+
+
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:visibility="gone"
+                                    android:layout_marginTop="5dp">
+
+                                    <TextView
+                                        android:id="@+id/pins"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="30dp"
+                                        android:text="Pin Code           : "
+                                        android:textColor="@color/black"
+
+                                        android:textSize="17dp"
+                                        android:textStyle="bold" />
+
+                                    <TextView
+                                        android:id="@+id/pin_code"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_toRightOf="@id/pins"
+                                        android:text="   276406"
+                                        android:textColor="@color/black"
+                                        android:textSize="17dp" />
+
+
+                                </RelativeLayout>
+
+
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="5dp">
+
+                                    <TextView
+                                        android:id="@+id/destices"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="30dp"
+                                        android:text="Email                 : "
+                                        android:textColor="@color/black"
+                                        android:textSize="17dp"
+
+                                        android:textStyle="bold" />
+
+                                    <TextView
+                                        android:id="@+id/email"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_toRightOf="@id/destices"
+                                        android:singleLine="true"
+                                        android:text="  rohankumar1970raj@gmail.com"
+                                        android:textColor="@color/black"
+                                        android:textSize="17dp" />
+
+
+                                </RelativeLayout>
+
+
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="5dp"
+                                    android:layout_marginBottom="10dp">
+
+                                    <TextView
+                                        android:id="@+id/states"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="30dp"
+                                        android:text="Mobile               : "
+                                        android:textColor="@color/black"
+                                        android:textSize="17dp"
+                                        android:textStyle="bold" />
+
+                                    <TextView
+                                        android:id="@+id/mobile"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_toRightOf="@id/states"
+                                        android:text="  8707091593"
+                                        android:textColor="@color/black"
+                                        android:textSize="17dp" />
+
+
+                                </RelativeLayout>
+
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:layout_margin="10dp"
+                                android:background="@color/gray"
+                                android:orientation="horizontal"
+                                android:padding="10dp">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:layout_weight="1"
+                                    android:text="Member Card"
+                                    android:textColor="@color/blue"
+                                    android:textStyle="bold" />
+
+
+                                <TextView
+                                    android:id="@+id/viewall"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="30dp"
+                                    android:textColor="@color/red"
+                                    android:layout_gravity="center"
+                                    android:text="View All"/>
+                            </LinearLayout>
+
+                            <androidx.recyclerview.widget.RecyclerView
+                                android:layout_width="match_parent"
+                                android:layout_marginTop="20dp"
                                 android:layout_height="wrap_content"
-                                android:layout_marginLeft="10dp"
-                                android:layout_toRightOf="@id/fath"
-                                android:maxLines="1"
-                                android:text="Ramesh kumar" />
-                        </RelativeLayout>
+                                android:id="@+id/member_recylviw"/>
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
 
 
-                        <RelativeLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="20dp"
+                    android:visibility="gone"
+                    android:gravity="center_horizontal">
 
-                            <TextView
-                                android:id="@+id/add"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginLeft="10dp"
-                                android:text="Address :-"
-                                android:textColor="@color/black"
-                                android:textSize="15dp" />
+                    <ImageView
+                        android:id="@+id/flag"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentBottom="true"
+                        android:src="@drawable/flag" />
 
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginLeft="10dp"
-                                android:layout_toRightOf="@id/add"
-                                android:text="Village- Maharupur,District Azamgarh, Uttar Pardesh." />
-                        </RelativeLayout>
-                    </LinearLayout>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@id/flag"
+                        android:text="Made In Indida"
+                        android:textColor="@color/black" />
                 </RelativeLayout>
-            </androidx.cardview.widget.CardView>
 
 
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginBottom="30dp"
-                android:gravity="center_horizontal">
+            </LinearLayout>
 
-                <ImageView
-                    android:id="@+id/flag"
-                    android:layout_width="40dp"
-                    android:layout_height="40dp"
-                    android:layout_alignParentBottom="true"
-                    android:src="@drawable/flag" />
+        </androidx.core.widget.NestedScrollView>
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="30dp"
-                    android:layout_alignParentBottom="true"
-                    android:layout_marginLeft="10dp"
-                    android:layout_toRightOf="@id/flag"
-                    android:text="Made In Indida"
-                    android:textColor="@color/black" />
-            </RelativeLayout>
-        </LinearLayout>
     </LinearLayout>
+
 </LinearLayout>
 

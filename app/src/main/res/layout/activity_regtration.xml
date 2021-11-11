@@ -99,8 +99,6 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_marginTop="0dp"
-                    android:inputType="number"
-                    android:maxLength="10"
                     android:singleLine="true"
                     android:textColor="@color/black"
                     android:textColorHint="@color/black"
@@ -124,7 +122,7 @@
                     android:layout_height="match_parent"
                     android:layout_marginTop="0dp"
                     android:inputType="number"
-                    android:maxLength="10"
+                    android:maxLength="2"
                     android:singleLine="true"
                     android:textColor="@color/black"
                     android:textColorHint="@color/black"
@@ -340,6 +338,7 @@
                     android:layout_height="match_parent"
                     android:layout_marginTop="0dp"
                     android:inputType="number"
+                    android:maxLength="6"
                     android:singleLine="true"
                     android:textColor="@color/black"
                     android:textColorHint="@color/black"
@@ -415,6 +414,29 @@
                     android:textSize="18dp" />
 
             </com.google.android.material.textfield.TextInputLayout>
+   <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="10dp"
+                android:hint="Refal"
+                app:hintTextColor="@color/black"
+                app:passwordToggleEnabled="true">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/refal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="0dp"
+                    android:maxLength="8"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/black"
+                    android:textSize="18dp" />
+
+            </com.google.android.material.textfield.TextInputLayout>
 
             <Button
                 android:id="@+id/registration"
@@ -424,7 +446,7 @@
                 android:layout_marginTop="15dp"
                 android:layout_marginRight="15dp"
                 android:layout_marginBottom="30dp"
-                android:background="@drawable/loginbutton_bg"
+                android:background="@drawable/login_bg"
                 android:text="Registration"
                 android:textColor="@color/white" />
 

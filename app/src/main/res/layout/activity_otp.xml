@@ -111,7 +111,7 @@
                     app:bar_active_color="@color/white"
                     app:bar_enabled="true"
                     app:hide_otp="true"
-                    app:length="4"
+                    app:length="5"
                     app:otp_box_background="@color/blue"
                     tools:ignore="MissingClass" />
             </LinearLayout>

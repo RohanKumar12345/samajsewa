@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/login_bg"
+    android:background="@drawable/loginbutton_bg"
     android:orientation="vertical">
 
     <androidx.core.widget.NestedScrollView
@@ -33,6 +33,7 @@
                 android:orientation="vertical"
                 tools:ignore="MissingClass">
 
+
                 <com.google.android.material.textfield.TextInputLayout
                     style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                     android:layout_width="match_parent"
@@ -40,23 +41,21 @@
                     android:layout_marginLeft="15dp"
                     android:layout_marginRight="15dp"
                     android:layout_marginBottom="20dp"
-                    android:hint="Mobile"
+                    android:hint="Email"
                     app:hintTextColor="@color/black">
 
                     <com.google.android.material.textfield.TextInputEditText
-                        android:id="@+id/mobile"
+                        android:id="@+id/email"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:layout_marginTop="0dp"
-                        android:inputType="number"
-                        android:maxLength="10"
+                        android:inputType="textWebEmailAddress"
                         android:singleLine="true"
                         android:textColor="@color/black"
                         android:textColorHint="@color/black"
                         android:textSize="18dp" />
 
                 </com.google.android.material.textfield.TextInputLayout>
-
 
                 <com.google.android.material.textfield.TextInputLayout
                     style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
@@ -102,7 +101,7 @@
                     android:layout_marginTop="15dp"
                     android:layout_marginRight="15dp"
                     android:layout_marginBottom="30dp"
-                    android:background="@drawable/loginbutton_bg"
+                    android:background="@drawable/login_bg"
                     android:text="Login"
                     android:textColor="@color/white" />
 

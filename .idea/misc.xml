@@ -3,6 +3,57 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Swa Softech/Android Projects/SamajSewa/app/src/main/res/drawable-v24/arrow.xml" value="0.19583333333333333" />
+        <entry key="..\:/Swa Softech/Android Projects/SamajSewa/app/src/main/res/drawable-v24/hamebrugericon.xml" value="0.19583333333333333" />
+        <entry key="..\:/Swa Softech/Android Projects/SamajSewa/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.19583333333333333" />
+        <entry key="..\:/Swa Softech/Android Projects/SamajSewa/app/src/main/res/drawable/card_bg.xml" value="0.19583333333333333" />
+        <entry key="..\:/Swa Softech/Android Projects/SamajSewa/app/src/main/res/layout/activity_forgotpassoword.xml" value="0.1796875" />
+        <entry key="..\:/Swa Softech/Android Projects/SamajSewa/app/src/main/res/layout/activity_login.xml" value="0.1796875" />
+        <entry key="..\:/Swa Softech/Android Projects/SamajSewa/app/src/main/res/layout/activity_main.xml" value="0.1796875" />
+        <entry key="..\:/Swa Softech/Android Projects/SamajSewa/app/src/main/res/layout/activity_mobileveri.xml" value="0.1796875" />
+        <entry key="..\:/Swa Softech/Android Projects/SamajSewa/app/src/main/res/layout/activity_mobileverifecation.xml" value="0.1796875" />
+        <entry key="..\:/Swa Softech/Android Projects/SamajSewa/app/src/main/res/layout/activity_my_profile.xml" value="0.16666666666666666" />
+        <entry key="..\:/Swa Softech/Android Projects/SamajSewa/app/src/main/res/layout/activity_otp.xml" value="0.1796875" />
+        <entry key="..\:/Swa Softech/Android Projects/SamajSewa/app/src/main/res/layout/activity_regtration.xml" value="0.1" />
+        <entry key="..\:/Swa Softech/Android Projects/SamajSewa/app/src/main/res/layout/activity_updateprofile.xml" value="0.1796875" />
+        <entry key="..\:/Swa Softech/Android Projects/SamajSewa/app/src/main/res/layout/homeloyout.xml" value="0.13333333333333333" />
+        <entry key="..\:/Swa Softech/Android Projects/SamajSewa/app/src/main/res/layout/nav_bar_menu.xml" value="0.1796875" />
+        <entry key="..\:/Swa Softect/Android Project/samajsewauser-main/app/src/main/res/drawable/drawelbg.xml" value="0.23493360572012256" />
+        <entry key="..\:/Swa Softect/Android Project/samajsewauser-main/app/src/main/res/drawable/login_bg.xml" value="0.23493360572012256" />
+        <entry key="..\:/Swa Softect/Android Project/samajsewauser-main/app/src/main/res/layout/activity_changepassword.xml" value="0.2" />
+        <entry key="..\:/Swa Softect/Android Project/samajsewauser-main/app/src/main/res/layout/activity_forgotpassoword.xml" value="0.21501532175689478" />
+        <entry key="..\:/Swa Softect/Android Project/samajsewauser-main/app/src/main/res/layout/activity_login.xml" value="0.21501532175689478" />
+        <entry key="..\:/Swa Softect/Android Project/samajsewauser-main/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Swa Softect/Android Project/samajsewauser-main/app/src/main/res/layout/activity_mobileveri.xml" value="0.2" />
+        <entry key="..\:/Swa Softect/Android Project/samajsewauser-main/app/src/main/res/layout/activity_otp.xml" value="0.21501532175689478" />
+        <entry key="..\:/Swa Softect/Android Project/samajsewauser-main/app/src/main/res/layout/activity_regtration.xml" value="0.21501532175689478" />
+        <entry key="..\:/Swa Softect/Android Project/samajsewauser-main/app/src/main/res/layout/activity_splase.xml" value="0.2" />
+        <entry key="..\:/Swa Softect/Android Project/samajsewauser-main/app/src/main/res/layout/activity_splase_screen.xml" value="0.21501532175689478" />
+        <entry key="..\:/Swa Softect/Android Project/samajsewauser-main/app/src/main/res/layout/activity_updateprofile.xml" value="0.21501532175689478" />
+        <entry key="..\:/Swa Softect/Android Project/samajsewauser-main/app/src/main/res/layout/homeloyout.xml" value="0.2" />
+        <entry key="..\:/Swa Softect/Android Project/samajsewauser-main/app/src/main/res/layout/nav_bar_menu.xml" value="0.21501532175689478" />
+        <entry key="..\:/Swa Softect/Android Project/samajsewauser/app/src/main/res/layout/activity_forgotpassoword.xml" value="0.1421875" />
+        <entry key="..\:/Swa Softect/Android Project/samajsewauser/app/src/main/res/layout/activity_login.xml" value="0.1421875" />
+        <entry key="..\:/Swa Softect/Android Project/samajsewauser/app/src/main/res/layout/activity_main.xml" value="0.20833333333333334" />
+        <entry key="..\:/Swa Softect/Android Project/samajsewauser/app/src/main/res/layout/activity_member_all.xml" value="0.1421875" />
+        <entry key="..\:/Swa Softect/Android Project/samajsewauser/app/src/main/res/layout/activity_memberlist_fullview.xml" value="0.1421875" />
+        <entry key="..\:/Swa Softect/Android Project/samajsewauser/app/src/main/res/layout/activity_my_profile.xml" value="0.1421875" />
+        <entry key="..\:/Swa Softect/Android Project/samajsewauser/app/src/main/res/layout/activity_my_team.xml" value="0.1421875" />
+        <entry key="..\:/Swa Softect/Android Project/samajsewauser/app/src/main/res/layout/activity_otp.xml" value="0.1421875" />
+        <entry key="..\:/Swa Softect/Android Project/samajsewauser/app/src/main/res/layout/activity_regtration.xml" value="0.1421875" />
+        <entry key="..\:/Swa Softect/Android Project/samajsewauser/app/src/main/res/layout/activity_updateprofile.xml" value="0.1421875" />
+        <entry key="..\:/Swa Softect/Android Project/samajsewauser/app/src/main/res/layout/homeloyout.xml" value="0.1" />
+        <entry key="..\:/Swa Softect/Android Project/samajsewauser/app/src/main/res/layout/memberdital_recylview.xml" value="0.1421875" />
+        <entry key="..\:/Swa Softect/Android Project/samajsewauser/app/src/main/res/layout/myteam_recylview.xml" value="0.1421875" />
+        <entry key="..\:/Swa Softect/Android Project/samajsewauser/app/src/main/res/layout/nav_bar_menu.xml" value="0.21927083333333333" />
+        <entry key="..\:/Swa Softect/Android Project/samajsewauser/app/src/main/res/layout/referlpermission_poup.xml" value="0.1421875" />
+        <entry key="..\:/Users/Rohan Programmer/Downloads/samajsewauser-main/samajsewauser-main/app/src/main/res/layout/activity_changepassword.xml" value="0.1421875" />
+        <entry key="..\:/Users/Rohan Programmer/Downloads/samajsewauser-main/samajsewauser-main/app/src/main/res/layout/activity_forgotpassoword.xml" value="0.1421875" />
+        <entry key="..\:/Users/Rohan Programmer/Downloads/samajsewauser-main/samajsewauser-main/app/src/main/res/layout/activity_login.xml" value="0.1421875" />
+        <entry key="..\:/Users/Rohan Programmer/Downloads/samajsewauser-main/samajsewauser-main/app/src/main/res/layout/activity_main.xml" value="0.1421875" />
+        <entry key="..\:/Users/Rohan Programmer/Downloads/samajsewauser-main/samajsewauser-main/app/src/main/res/layout/activity_otp.xml" value="0.1421875" />
+        <entry key="..\:/Users/Rohan Programmer/Downloads/samajsewauser-main/samajsewauser-main/app/src/main/res/layout/homeloyout.xml" value="0.1421875" />
+        <entry key="..\:/Users/Rohan Programmer/Downloads/samajsewauser-main/samajsewauser-main/app/src/main/res/layout/memberdital_recylview.xml" value="0.1421875" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/SamajSewa/app/src/main/res/drawable-v24/arrow.xml" value="0.2703125" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/SamajSewa/app/src/main/res/drawable/btn_bg.xml" value="0.26615384615384613" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/SamajSewa/app/src/main/res/drawable/edite_photo.xml" value="0.2625" />
@@ -23,7 +74,7 @@
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

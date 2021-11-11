@@ -1,5 +1,6 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
@@ -49,50 +50,205 @@
         android:layout_margin="10dp"
         android:orientation="vertical">
 
-        <TextView
-            android:id="@+id/my_profile"
+
+        <com.balysv.materialripple.MaterialRippleLayout
+            android:id="@+id/profile"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="My Profile"
+            android:layout_height="50dp"
+            android:layout_marginRight="20dp"
+            app:mrl_rippleColor="@color/light_blue"
+            app:mrl_rippleDelayClick="true"
+            tools:ignore="MissingClass">
 
-            android:textColor="@color/black"
-            android:textSize="15dp" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical">
 
-        <TextView
+                <TextView
+                    android:id="@+id/myprofile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="18dp"
+                    android:layout_toRightOf="@id/importemim"
+                    android:clickable="true"
+                    android:drawableTint="@color/light_blue"
+                    android:gravity="center_vertical"
+                    android:text="My Profile"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/light_blue" />
+
+                <ImageView
+                    android:id="@+id/importemim"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/persion"
+                    app:tint="@color/light_blue" />
+            </RelativeLayout>
+
+        </com.balysv.materialripple.MaterialRippleLayout>
+
+        <com.balysv.materialripple.MaterialRippleLayout
             android:id="@+id/team"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:layout_marginTop="10dp"
-            android:text="My Team"
-            android:textColor="@color/black"
-            android:textSize="15dp" />
+            android:layout_marginRight="20dp"
 
-        <TextView
+            app:mrl_rippleColor="@color/light_blue"
+            app:mrl_rippleDelayClick="true"
+            tools:ignore="MissingClass">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/myteam"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="18dp"
+                    android:layout_toRightOf="@id/team_imag"
+                    android:clickable="true"
+                    android:drawableTint="@color/light_blue"
+                    android:gravity="center_vertical"
+                    android:text="My Team"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/light_blue" />
+
+                <ImageView
+                    android:id="@+id/team_imag"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/team"
+                    app:tint="@color/light_blue" />
+            </RelativeLayout>
+
+        </com.balysv.materialripple.MaterialRippleLayout>
+
+        <com.balysv.materialripple.MaterialRippleLayout
             android:id="@+id/share"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:layout_marginTop="10dp"
-            android:text="Share"
-            android:textColor="@color/black"
-            android:textSize="15dp" />
+            android:layout_marginRight="20dp"
 
-        <TextView
-            android:id="@+id/contact"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:text="Contact"
-            android:textColor="@color/black"
-            android:textSize="15dp" />
+            app:mrl_rippleColor="@color/light_blue"
+            app:mrl_rippleDelayClick="true"
+            tools:ignore="MissingClass">
 
-        <TextView
-            android:id="@+id/Logout"
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/myshare"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="18dp"
+                    android:layout_toRightOf="@id/share_img"
+                    android:clickable="true"
+                    android:drawableTint="@color/light_blue"
+                    android:gravity="center_vertical"
+                    android:text="Share"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/light_blue" />
+
+                <ImageView
+                    android:id="@+id/share_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/share"
+                    app:tint="@color/light_blue" />
+            </RelativeLayout>
+
+        </com.balysv.materialripple.MaterialRippleLayout>
+
+        <com.balysv.materialripple.MaterialRippleLayout
+            android:id="@+id/contcot"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:layout_marginTop="10dp"
-            android:text="Log Out"
-            android:textColor="@color/black"
-            android:textSize="15dp" />
+            android:layout_marginRight="20dp"
+            app:mrl_rippleColor="@color/light_blue"
+            app:mrl_rippleDelayClick="true"
+            tools:ignore="MissingClass">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/contcots"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="18dp"
+                    android:layout_toRightOf="@id/contcot_img"
+                    android:clickable="true"
+                    android:drawableTint="@color/light_blue"
+                    android:gravity="center_vertical"
+                    android:text="Contacts"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/light_blue" />
+
+                <ImageView
+                    android:id="@+id/contcot_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/contacts"
+                    app:tint="@color/light_blue" />
+            </RelativeLayout>
+
+        </com.balysv.materialripple.MaterialRippleLayout>
+
+
+        <com.balysv.materialripple.MaterialRippleLayout
+            android:id="@+id/logout"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            app:mrl_rippleColor="@color/light_blue"
+            app:mrl_rippleDelayClick="true"
+            tools:ignore="MissingClass">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/log"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="18dp"
+                    android:layout_toRightOf="@id/log_img"
+                    android:clickable="true"
+                    android:drawableTint="@color/light_blue"
+                    android:gravity="center_vertical"
+                    android:text="Log Out"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/light_blue" />
+
+                <ImageView
+                    android:id="@+id/log_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/logout"
+                    app:tint="@color/light_blue" />
+            </RelativeLayout>
+
+        </com.balysv.materialripple.MaterialRippleLayout>
+
+
 
     </LinearLayout>
 </LinearLayout>
